@@ -1,0 +1,12 @@
+
+_
+java:S1481&"'Remove this unused "tx" local variable.(´ü¶ëûÿÿÿÿ8œÙ‘ƒ†0H¤RMINORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8˜»×„†0H§RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÖîÃûÿÿÿÿH¦RMINORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8˜»×„†0H©RMINORZ
+CODE_SMELL

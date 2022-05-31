@@ -1,0 +1,9 @@
+
+g
+java:S1128"5Remove this unused import 'javax.persistence.Column'.(ìûæH8òü¾«…0HÀRMINORZ
+CODE_SMELL
+H
+java:S1700"Rename field "answer"(åÿÑÌ8¯ï‹ˆ…0H´RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ù˜áúÿÿÿÿH³RMINORZ
+CODE_SMELL

@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+D:\Ecommerce\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\557632964.index
+\WebApp\src\main\resources

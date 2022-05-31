@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=HibernatesAnnotation/C:\/Users\/d1\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.6.8.Final\/hibernate-core-5.6.8.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.6.8.Final=/=/maven.scope=/compile=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="33" timestamp="1650458741126"/>
+    <typeInfo handle="=HibernatesAnnotation/C:\/Users\/d1\/.m2\/repository\/mysql\/mysql-connector-java\/8.0.28\/mysql-connector-java-8.0.28.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/mysql=/=/maven.artifactId=/mysql-connector-java=/=/maven.version=/8.0.28=/=/maven.scope=/compile=/&lt;com.mysql.cj.jdbc(Driver.class[Driver" modifiers="33" timestamp="1650458758188"/>
+</typeInfoHistroy>

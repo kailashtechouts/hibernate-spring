@@ -1,0 +1,15 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ù˜áúÿÿÿÿH¹RMINORZ
+CODE_SMELL
+O
+java:S1700"Rename field "question"(·î”Ûøÿÿÿÿ8°‚Œˆ…0HºRMAJORZ
+CODE_SMELL
+g
+java:S1128"5Remove this unused import 'javax.persistence.Column'.(ìûæH8ôö´«…0H´RMINORZ
+CODE_SMELL
+p
+java:S1128"=Remove this unused import 'javax.persistence.GenerationType'.(ý÷õ¡8ó±€¨…0HÇRMINORZ
+CODE_SMELL
+p
+java:S1128"=Remove this unused import 'javax.persistence.GeneratedValue'.(¤®À‚8ó±€¨…0HÅRMINORZ
+CODE_SMELL

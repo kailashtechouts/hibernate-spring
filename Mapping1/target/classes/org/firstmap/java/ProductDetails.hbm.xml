@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="org.firstmap.java.ProductDetails">
+	<class name="org.firstmap.java.ProductDetails" table="PRODUCT_DETAILS">
+		<id name="productId" column="PRODUCT_ID" >
+			<generator class="foreign">
+				<param name="property">product</param>
+			</generator>
+		</id>
+		<property name="dimension" column="DIMENSION" />
+		<property name="weight" column="WEIGHT" type="float" />
+		<property name="manufacture" column="MANUFACTURE" />
+		<property name="origin" column="ORIGIN" />
+
+		<one-to-one name="product" constrained="true" class="org.firstmap.java.Product" />
+	</class>
+</hibernate-mapping>

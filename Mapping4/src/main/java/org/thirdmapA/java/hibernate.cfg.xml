@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/many_data</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="dailect">org.hibernate.dailect.MySQL8Dialect</property>
+		<property name="hbm2ddl.auto">update</property> 
+		<property name="show_sql">true</property>
+		
+		<mapping class="org.thirdmapA.java.Group"/>
+		<mapping class="org.thirdmapA.java.User"/>
+		
+	</session-factory>
+</hibernate-configuration>

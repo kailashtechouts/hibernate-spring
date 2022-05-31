@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        
+ <hibernate-mapping >
+ 		<class name = "org.firstmap.java.Product" table = "PRODUCT">
+ 			<id name = "productId" column = "productId">
+ 				<generator class="native"/>
+ 			</id>
+ 			<property name="name" column = "NAME"></property>
+ 			<property name="description" column = "DESCRIPTION"></property>
+ 			<property name="price" column = "PRICE" type = "float"></property>
+ 		
+ 			 <one-to-one name="productDetails" cascade="all" class="org.firstmap.java.ProductDetails" />
+ 		</class>
+ </hibernate-mapping>
