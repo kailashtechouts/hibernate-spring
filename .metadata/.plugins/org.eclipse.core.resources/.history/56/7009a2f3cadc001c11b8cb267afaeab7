@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="security"
+	uri="http://www.springframework.org/security/tags"%>
+<%@ page isELIgnored="false"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Cart</title>
+</head>
+<body>
+
+	<div ng-init="getCart(${cartId})">
+		<br> List of Products Purchased
+		
+		<table id="productList">
+			<tr>
+				<th>Product Name</th>
+				<th>Quantity</th>
+				<th>Price</th>
+				<th>Total Price</th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr ng-repeat="cart in carts.cartItem">
+			<c:forEach items="${cc}" var="ds">
+				<td>{{cart.ds.productImageUrl}}</td>
+				<td>{{cart.ds.productName}}</td>			
+				<td>{{cart.ds.productPrice}}</td>
+				<td>{{cart.ds.quality}}</td>
+				
+				<td><c:url value="/SpringEcommerce/order/${cartId}" var="url1"></c:url> <a
+					href="${url1}">Order</a></td>
+				<td><c:url value="/SpringEcommerce/remove/${cartId}" var="url1"></c:url> <a
+					href="${url1}">Remove</a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="StyleSheet" href="headerhome.css">
+    <title>REEBOK OLD SCHOOL</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+
+            <ul class="header-left">
+                <li> <a href="deafult.asp" class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyjErq4K9T0yZqmHvlYfTncPzvLM-iKsNIcA&usqp=CAU"
+                     alt="logo"></a></li>
+                <li><button class="buttons"> <a href="#show_message"> MEN</a>
+                   </button></li>
+                <li><button class="buttons"> <a href="#show_message">WOMEN</a>
+                   </button></li>
+                <li><button class="buttons"> <a href="#show_message">KIDS</a>
+                </button></li>
+                <li><button class="buttons"> <a href="#show_message">EXPLORE</a>
+                </button></li>
+                <li><button class="buttons"> <a href="#show_message">SALE</a>
+                </button></li>
+                <li><input type="search" value="" placeholder="Search for Products and Brands More"
+                        style="width: 250px;height: 30px;border-radius: 10px;border: 1px solid black;"></li>
+                        <li><button class="buttons"> <a href="#show_message"><svg xmlns="http://www.w3.org/2000/svg"
+                             width="20" height="20" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                          </svg></a>
+                        </button></li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <img src = "https://content.shop4reebok.com/static/hero/RBK_Outlet_1920x800_160322_Homepage.jpg">
+    </div>
+    <div class="Shirts" style="margin-top: 30px; background-color: lightslategray;">
+        <div class="shirts-one"> <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/spotlight/RBK_Website_Banners_Shoes_130821.jpg"
+             alt="SPT1_SHOES_130821" style="width: 100%; height: auto;"></a>
+            <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/spotlight/Apparel_SL_WEB_060122.jpg" 
+                alt="APPAREL" style="width: 100%; height: auto;"></a>
+            <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/spotlight/Accessories_spotlight_960x480_15th_Sept.jpg"
+                 alt="ACCESSORIES " style="width: 100%; height: auto;"></a>
+            <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/spotlight/NewArrivals_SL_WEB_280322.jpg"
+                 alt="SPT3_NewArrivals_SL_280322" style="width: 100%; height: auto;"></a>
+        </div><br><br><br>
+        <div class="Shirts" style="margin-top: 50px; background-color: lightslategray;">
+            <div class="shirts-one"> <a id="T-shirt"> <img src="https://brand.assets.reebok.com/image/upload/f_auto,q_auto,fl_lossy/reebok_enUS/Images/22SS_Adaptive-Collection-Fit-to-Fit_FD_Teaser-Carousel-Card_tcm274-888503.jpg"
+                alt="SPT1_SHOES_130821" style="width: 100%; height: auto;"></a>
+                <a id="T-shirt"> <img src="https://brand.assets.reebok.com/image/upload/f_auto,q_auto,fl_lossy/reebok_enUS/Images/22SS_ZigDynamica-FamilyShots_FD_Teaser-Carousel-Card-Background_tcm274-887621.jpg"
+                alt="SPT1_SHOES_130821" style="width: 100%; height: auto;"></a>
+            
+            
+            </div>
+
+        </div>
+    <div>
+         <img src="https://content.shop4reebok.com/static/explore/10_pct_prepaid_1Oct.png"
+         alt="" style="margin: 0 auto;">
+    </div>
+    <div class = "popular">
+        <div style="text-align: center;font-size: 40px;line-height: 40px; text-transform: uppercase;
+        letter-spacing: 1px;font-family: NeuePlakWideRegular;color: #000000;margin-bottom: 20px;">TRENDING NOW</div>
+    </div>
+    <div>
+        <div class="Shirts" style="margin-top: 50px;">
+            <div class="shirts-one"> <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/explore/RBK_EN_Training_Essentials_040522_960x480.jpg"
+               alt="" class="cta-image" style="width: 100%;height: auto;"></a>
+               <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/explore/RBK_EN_Money_Heist_050522_960x480.jpg" 
+               alt="" class="cta-image" style="width: 100%;height: auto;"></a>           
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="Shirts" style="margin-top: 50px;">
+            <div class="shirts-one"> <a id="T-shirt"> <img src="https://content.shop4reebok.com/static/explore/RBK_EN_Athleisure_040522_960x480.jpg" 
+                alt="" class="cta-image" style="width: 100%;height: auto;"></a>  
+                <a id="T-shirt"><img src="https://content.shop4reebok.com/static/explore/RBK_EN_Running_Gear_040522_960x480.jpg" 
+                alt="" class="cta-image" style="width: 100%;height: auto;"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-div">                                                                       
+            <div>
+                <ul>
+                    <h5>MEN</h5>
+                    <li>Footwear</li>
+                    <li>Clothing</li>
+                    <li>Accessories</li>
+                    <h5>WOMEN</h5>
+                    <li>Footwear</li>
+                    <li>Clothing</li>
+                    <li>Accessories</li>
+                    <h5>KIDS</h5>
+                    <li>Footwear</li>
+                    <li>Clothing</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h5>FITNESS</h5>
+                    <li> Running</li>
+                    <li> Training</li>
+                    <li>Classics</li>
+                    <li> Walking</li>
+                    <li>Mixed Martial Arts</li>
+                    <li>Swimming</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h5>QUICK SHOP</h5>
+                    <li> Running</li>
+                    <li> Training</li>
+                    <li>Classics</li>
+                    <li> Walking</li>
+                    <li>Mixed Martial Arts</li>
+                    <li>Swimming</li>
+                    <li>SALE</li>
+                    <h5>NEW ARRIVALS</h5>
+                    <li>New Arrivals</li>
+
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h5>CUSTOMER SERVICE</h5>
+                    <li> Contact Us</li>
+                    <li> My Account</li>
+                    <li>*Privacy Policy</li>
+                    <li>*Terms And Conditions</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

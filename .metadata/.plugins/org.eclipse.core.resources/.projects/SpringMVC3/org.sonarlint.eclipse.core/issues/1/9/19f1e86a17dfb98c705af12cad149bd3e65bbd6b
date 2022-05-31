@@ -1,0 +1,6 @@
+
+}
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(©¥µ 8°“ƒ¿‹0HöaRMINORZ
+CODE_SMELL
+…
+java:S3753"XAdd a call to "setComplete()" on the SessionStatus object in a "@RequestMapping" method.(ŒŒ’D8æè‡¿‹0HøaRBLOCKERZBUG

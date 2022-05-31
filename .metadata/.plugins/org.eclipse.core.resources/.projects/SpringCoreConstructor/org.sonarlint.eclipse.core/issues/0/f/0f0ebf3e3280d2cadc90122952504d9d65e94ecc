@@ -1,0 +1,6 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ìõ²Éÿÿÿÿÿ8‚ÆžÅˆ0H¤RMAJORZ
+CODE_SMELL
+}
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8Úª¹Åˆ0H¨RMINORZ
+CODE_SMELL

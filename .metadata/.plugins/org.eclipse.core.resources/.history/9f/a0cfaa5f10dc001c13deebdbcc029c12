@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<div>
+		<c:forEach items="${plplist}" var="data">
+
+			<a href="/EcommerceMain/pdp/${data.getId()}"> 
+			<img style="width: 400px; height: 400px;" src="${data.getProductUrl()}"
+				alt="product" /></a><br>
+			<h5 class="mb-0">${data.getProductName()}</h5><br>
+	        <h5 class="text-dark mb-0">price:${data.getProductPrice()}</h5><br>
+
+		<div class="d-flex flex-row">
+			<button type="button"> <a href="/SpringEcommerce/pdp/${data.getId()}">KNOW MORE</a></button>
+			
+			<button type="button"><a href="/SpringEcommerce/pdp/${data.getId()}">ADD TO CART</a></button>		
+		</div>
+	</c:forEach>
+	</div>
+	<br>
+	<br>
+	<br>
+
+
+
+</body>
+</html>

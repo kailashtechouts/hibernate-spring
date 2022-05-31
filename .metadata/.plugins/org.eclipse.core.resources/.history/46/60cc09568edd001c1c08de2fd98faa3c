@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<div>
+		<table id="orderList">
+			<tr>
+				<th>Product Name</th>
+				<th>Price</th>
+				<th></th>
+			</tr>
+			<tr>
+				<c:forEach items="${cc}" var="inf">
+				<td>${inf.productUrl()}</td>
+				<td>${inf.productName()}</td>			
+				<td>${inf.productPrice()}</td>
+				<td><c:url value="/SpringEcommerce/remove/${inf.getId()}" var="url1"></c:url> <a
+					href="${url1}">Remove</a></td>
+					</c:forEach>  
+			</tr>
+		</table>
+	</div>
+</body>
+</body>
+</html>

@@ -1,0 +1,6 @@
+
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHòkRMAJORZBUG
+N	Web:S5256"%Add "<th>" headers to this "<table>".(¿‰˜ÿÿÿÿÿHókRMAJORZBUG
+eWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(†èÆp8¹üƒè‹0HôkRMAJORZ
+CODE_SMELL
+\Web:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿHõkRMINORZBUG

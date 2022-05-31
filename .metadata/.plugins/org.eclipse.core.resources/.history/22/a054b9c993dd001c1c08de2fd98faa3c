@@ -1,0 +1,43 @@
+package com.spring.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.spring.details.Cart;
+import com.spring.details.Order;
+
+public class OrderDaoImpl implements OrderDao {
+
+	@Autowired
+	private HibernateTemplate hibernateTemplate;
+
+	@Override
+	public void saveOrders(Cart cart) {
+		Order order = new Order();
+		order.setProductId(cart.getId());
+		order.setUsername(username);
+		order.setProductName(cart.getProductName());
+		order.setProductDesc(cart.getProductDesc());
+		order.setProductUrl(cart.getProductUrl());
+		order.setProductPrice(cart.getProductPrice());
+		this.hibernateTemplate.save(order);
+
+	}
+
+	@SuppressWarnings({ "deprecation", "unchecked" })
+	@Override
+	public List<Order> orderList(String username) {
+
+		return (List<Order>) this.hibernateTemplate.findByNamedParam("from Order where username=:username", "username",
+				username);
+
+	}
+
+	@Override
+	public void deleteFromCart(int id) {
+
+	}
+
+}

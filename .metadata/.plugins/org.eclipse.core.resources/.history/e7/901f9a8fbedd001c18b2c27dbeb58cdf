@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" 
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base"
+		template="/WEB-INF/layout/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/footer.jsp" />
+	</definition>
+
+	<definition name="register" extends="base">
+		<put-attribute name="title" value="Registeration Page " />
+		<put-attribute name="body"
+			value="/WEB-INF/views/register.jsp" />
+	</definition>
+	<definition name="login" extends="base">
+		<put-attribute name="title" value="Login Page " />
+		<put-attribute name="body"
+			value="/WEB-INF/views/login.jsp" />
+	</definition>
+	<definition name="main-page" extends="base">
+		<put-attribute name="title" value="Main Reebok Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/home.jsp" />
+	</definition>
+	<definition name="addproduct" extends="base">
+		<put-attribute name="title" value="Add Product Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/addproduct.jsp" />
+	</definition>
+	<definition name="plp" extends="base">
+		<put-attribute name="title" value="Show Product Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/plp.jsp" />
+	</definition>
+	<definition name="pdp" extends="base">
+		<put-attribute name="title" value="Show Product Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pdp.jsp" />
+	</definition>
+	<definition name="addcart" extends="base">
+		<put-attribute name="title" value="Show Cart Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/addcart.jsp" />
+	</definition>
+	<definition name="order" extends="base">
+		<put-attribute name="title" value="Show Cart Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/order.jsp" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,12 @@
+
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(åª8Ù‡íì‹0H¶}RMAJORZ
+CODE_SMELL
+‚
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ã®íÙùÿÿÿÿ8ØŸšç‹0H·}RMINORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(‰€é½ûÿÿÿÿ8Ù‡íì‹0H¹}RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(‡õ 8Ù‡íì‹0Hº}RMAJORZ
+CODE_SMELL
+…
+java:S3753"XAdd a call to "setComplete()" on the SessionStatus object in a "@RequestMapping" method.(ŒŒ’D8Ô——à‹0H»}RBLOCKERZBUG

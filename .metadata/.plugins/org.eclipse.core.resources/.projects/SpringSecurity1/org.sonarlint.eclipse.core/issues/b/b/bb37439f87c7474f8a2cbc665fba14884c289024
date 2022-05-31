@@ -1,0 +1,10 @@
+
+z
+java:S1128"ARemove this unused import 'org.springframework.cglib.proxy.NoOp'.(Òñá®üÿÿÿÿ8‹òÏ°0H®‰RMINORZ
+CODE_SMELL
+˜
+java:S1488!"dImmediately return this expression instead of assigning it to the temporary variable "jdbcTemplate".(´óè¸8ÿÚÄ±0H°‰RMINORZ
+CODE_SMELL
+o
+java:S18743";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(å‰ö8‹òÏ°0H³‰RMINORZ
+CODE_SMELL

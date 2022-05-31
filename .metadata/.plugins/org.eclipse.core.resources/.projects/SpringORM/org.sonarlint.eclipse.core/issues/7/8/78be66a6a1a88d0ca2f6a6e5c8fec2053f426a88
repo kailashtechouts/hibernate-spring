@@ -1,0 +1,13 @@
+
+”
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "emps".(î»ê…ûÿÿÿÿ8¹Üñæ‰0HÎRMINORZ
+CODE_SMELL
+“
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "emp".(ŸèÂùÿÿÿÿ8™úşÌ‰0HÉRMINORZ
+CODE_SMELL
+À
+java:S4449%"ŒAnnotate the parameter with @javax.annotation.Nullable in method 'delete' declaration, or make sure that null can not be passed as argument.(•ßÛ¤8ÜÌúæ‰0HÌRMAJORZ
+CODE_SMELL
+Œ
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "i".(ˆãºÏ8ÜÚÅ‰0HÑRMINORZ
+CODE_SMELL

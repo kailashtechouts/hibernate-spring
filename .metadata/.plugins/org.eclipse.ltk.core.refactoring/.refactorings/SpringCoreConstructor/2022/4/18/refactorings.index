@@ -1,0 +1,24 @@
+1651126846502	Rename package 'com.springcore'
+1651126858773	Rename package 'com.springcore.constuct'
+1651128394132	Rename resource 'config.xml'
+1651129779925	Copy file
+1651129797003	Rename resource 'ciconfig.xml'
+1651130174219	Copy compilation unit
+1651130922018	Copy file
+1651131430114	Copy compilation unit
+1651131527609	Rename resource 'cirefconfig.xml'
+1651141648071	Copy file
+1651141665566	Rename resource 'cirefconfig.xml'
+1651142987008	Delete element
+1651151692674	Copy file
+1651151723981	Rename resource 'ciconfig.xml'
+1651208887552	Copy compilation unit
+1651208894516	Copy compilation unit
+1651208901628	Copy compilation unit
+1651208908012	Copy file
+1651208986663	Rename resource 'autoconfig.xml'
+1651209470811	Rename type 'Test'
+1651209497607	Rename type 'Address'
+1651209515602	Rename type 'Employee'
+1651300828053	Copy file
+1651300841341	Rename resource 'beanconfig.xml'

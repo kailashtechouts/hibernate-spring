@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ page isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<img style="width: 352px; height: 360px;"
+			src="${product.getProductImageUrl() }" class="border p-3">
+	</div>
+	<b>${product.getProductName()}</b>
+	<p>Price :${product.getProductPrice()}</p>
+	<p>${product.getProductDesc()}</p>
+
+	<form action="/SpringEcommerce/addcart/${product.getId()}" method="post">
+		<input type="submit" value="Add To Cart">
+		<div>
+			<a href="/SpringEcommerce/main-page" class="btn btn-success w-100">Cancel</a>
+		</div>
+	</form>
+
+</body>
+</html>

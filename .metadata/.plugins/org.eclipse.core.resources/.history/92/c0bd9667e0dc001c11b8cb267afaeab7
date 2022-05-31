@@ -1,0 +1,15 @@
+package com.spring.dao;
+
+import java.util.List;
+import com.spring.details.Cart;
+import com.spring.details.ProductDetails;
+
+public interface CartDao {
+
+	public Cart getCartByCartId(int id);
+	
+	public List<Cart> cartList(String productName);
+	
+	public void saveCart(ProductDetails product, String name, int quantity);
+
+}

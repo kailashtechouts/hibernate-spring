@@ -1,0 +1,14 @@
+
+n	java:S125)"<This block of commented-out lines of code should be removed.(–¬•Ü8¿àÅ¢‰0HìRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ıÿ»±ıÿÿÿÿ8æ¬µğˆ0HëRMAJORZ
+CODE_SMELL
+
+java:S1128"GRemove this unused import 'org.springframework.jdbc.core.JdbcTemplate'.(å ê‹ÿÿÿÿÿ8ş°å¢‰0HçRMINORZ
+CODE_SMELL
+p	java:S1060"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8æ¬µğˆ0HéRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ÃÈ÷¤8ìßÊ‰0HÛRMAJORZ
+CODE_SMELL
+s	java:S125,"<This block of commented-out lines of code should be removed.(ÃÀ’ôşÿÿÿÿ8ş°å¢‰0HêRMAJORZ
+CODE_SMELL

@@ -1,0 +1,14 @@
+1652246844702	Copy file
+1652246850547	Delete element
+1652248725119	Rename type 'Controller'
+1652249394083	Move 'index.jsp' to 'views'
+1652249397471	Move 'loginform.jsp' to 'views'
+1652249868227	Delete element
+1652250722679	Move 'spring-servlet.xml' to 'WEB-INF'
+1652250869924	Move 'spring-servlet.xml' to 'views'
+1652250939441	Move 'spring-servlet.xml' to 'webapp'
+1652250943325	Move 'spring-servlet.xml' to 'WEB-INF'
+1652251076911	Delete element
+1652251269744	Rename resource 'springservlet.xml'
+1652271296619	Rename resource 'loginform.jsp'
+1652271414844	Rename resource 'Loginsuccess.jsp'

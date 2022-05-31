@@ -1,0 +1,16 @@
+
+‘
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "r".(õ‘–øÿÿÿÿ8æ±£˜‰0H±MRMINORZ
+CODE_SMELL
+Œ
+java:S1488'"YImmediately return this expression instead of assigning it to the temporary variable "s".(ì°”8±ñ¿¢‰0H´MRMINORZ
+CODE_SMELL
+Œ
+java:S1488 "YImmediately return this expression instead of assigning it to the temporary variable "r".(şõØ©8êß—Ÿ‰0H·MRMINORZ
+CODE_SMELL
+
+java:S1488-"ZImmediately return this expression instead of assigning it to the temporary variable "st".(Úş ó8ÊıŞ¢‰0HºMRMINORZ
+CODE_SMELL
+‘
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "r".(—®–úÿÿÿÿ8¿Ü»‰0H½MRMINORZ
+CODE_SMELL

@@ -1,0 +1,29 @@
+package com.spring.dao;
+
+import java.util.List;
+
+import com.spring.details.Cart;
+
+public class OrderDaoImpl implements OrderDao{
+
+	@Override
+	public void saveOrders(Cart cart) {
+		
+	}
+
+	@Override
+	public List<Cart> orderList(String username) {
+		
+		return (List<Order>) this.hibernateTemplate
+				.findByNamedParam("from Order where username=:username", "username", username);
+
+	}
+
+	@Override
+	public void deleteFromCart(int id) {
+	
+	}
+	
+	
+
+}

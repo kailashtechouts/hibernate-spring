@@ -1,0 +1,47 @@
+package com.spring.dao;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.spring.details.Cart;
+import com.spring.details.ProductDetails;
+
+@Repository
+@Transactional
+public class CartDaoImpl implements CartDao {
+
+	@Autowired
+	private HibernateTemplate hibernateTemplate;
+	
+	@Override
+	public Cart getCartByCartId(int id) {
+			return this.hibernateTemplate.get(Cart.class, id);
+	}
+
+	@SuppressWarnings({ "unchecked", "deprecation" })
+	@Override
+	public List<Cart> cartList(String productName) {
+		
+		return (List<Cart>) this.hibernateTemplate
+				.findByNamedParam("from Cart where product=:productName", "productName", productName);
+
+	}
+
+	@Override
+	public void saveCart(ProductDetails product, String name) {
+		Cart cart = new Cart();
+		cart.setId(product.getId());
+		cart.setProductName(product.getProductName());
+		cart.setProductDesc(product.getProductDesc());
+		cart.setProductUrl(product.getProductImageUrl());
+		cart.setProductPrice(product.getProductPrice());
+		
+		this.hibernateTemplate.save(cart);
+	}
+
+}

@@ -1,0 +1,11 @@
+
+S
+java:S1168
+"&Return an empty array instead of null.(¥¹ïHıRMAJORZ
+CODE_SMELL
+’
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "mappings".(’û´ŞüÿÿÿÿHõRMINORZ
+CODE_SMELL
+
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "configFiles".(å©ş<HRMINORZ
+CODE_SMELL
